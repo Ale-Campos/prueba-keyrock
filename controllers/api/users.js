@@ -200,6 +200,7 @@ exports.create = function (req, res) {
 
       user.image = 'default';
       user.enabled = false;
+      user.admin = true
       user.id = uuid.v4();
       user.date_password = new Date(new Date().getTime());
       return user.validate();
@@ -217,7 +218,8 @@ exports.create = function (req, res) {
           'date_password',
           'extra',
           'enabled',
-          'salt'
+          'salt',
+          'admin'
         ]
       });
     })
