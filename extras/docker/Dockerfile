@@ -1,8 +1,8 @@
 ARG NODE_VERSION=14
-ARG GITHUB_ACCOUNT=FacundoCasasNaturalTH
+ARG GITHUB_ACCOUNT=Ale-Campos
 ARG GITHUB_REPOSITORY=prueba-keyrock
 ARG DOWNLOAD=latest
-ARG SOURCE_BRANCH=master
+ARG SOURCE_BRANCH=admin-by-default
 ARG HEADLESS=false
 
 # Default Builder, distro and distroless build version
